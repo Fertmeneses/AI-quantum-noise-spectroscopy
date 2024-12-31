@@ -2,17 +2,19 @@
 
 **[Website in development...]**
 
-"Toward Deep-Learning-Assisted Spectrally Resolved Imaging of Magnetic Noise", published by *Physical Review Applied* in 2022.
+As a postdoc in **The City College of New York** (CCNY, USA), I combined my experimental skills in quantum sensing along with machine learning techniques. In collaboration with **University College London** (UCL, UK) and **Universidad Nacional de Córdoba** (UNC, Argentina), we published a research article titled **Toward Deep-Learning-Assisted Spectrally Resolved Imaging of Magnetic Noise**, in the journal *Physical Review Applied* in 2022.
 
-Authors:
-* Fernando Meneses.
-* David F. Wise.
-* Daniela Pagliero.
-* Pablo R. Zangara.
-* Siddharth Dhomkar.
-* Carlos A. Meriles.
+[Link to the research article](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.18.024004) 👈🏽.
 
-[Research article](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.18.024004) 👈🏽.
+The full list of authors include:
+* Fernando Meneses (CCNY).
+* David F. Wise (UCL).
+* Daniela Pagliero (CCNY).
+* Pablo R. Zangara (UNC).
+* Siddharth Dhomkar (UCL).
+* Carlos A. Meriles (CCNY).
+
+The main concept of the work was to we probe the response of **quantum defects in diamond** in the presence of a **magnetic environment** and implement a **deep neural network** to extract information about the **noise spectral density**. Our method was compared to traditional approaches, excluding artificial intelligence, demonstrating a **better performance and more precise results**.
 
 ## Introduction
 
