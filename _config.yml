@@ -1,6 +1,6 @@
-title: Qubit Noise Spectroscopy - Machine Learning approach
+title: Qubit Noise Spectroscopy
 email: fertmeneses@gmail.com
 logo: assets/QNS_logo.png
-description:  A python code for the scientific research "Toward Deep-Learning-Assisted Spectrally Resolved Imaging of Magnetic Noise", by Fernando Meneses, Siddharth Dhomkar and others.
+description: A Machine Learning approach for imaging magnetic noise, by Fernando Meneses.
 show_downloads: True
 theme: jekyll-theme-minimal
