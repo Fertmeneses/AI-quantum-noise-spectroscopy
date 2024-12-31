@@ -16,6 +16,9 @@ The full list of authors include:
 
 The main concept of the work was to we probe the response of **quantum defects in diamond** in the presence of a **magnetic environment** and implement a **deep neural network** to extract information about the **noise spectral density**. Our method was compared to traditional approaches, excluding artificial intelligence, demonstrating a **better performance and more precise results**.
 
+![Concept image](assets/Image_Concept.jpg)
+<p align="center"><i><small>AI-generated image, prompt: "A small diamond on top of a flat metallic surface with unknown content underneath, with energy waves".</i></small></p>
+
 ## Introduction
 
 Quantum sensing using diamonds (briefly)
