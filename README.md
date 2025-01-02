@@ -25,13 +25,15 @@ The main concept of the work was to we probe the response of **quantum defects i
 
 **Quantum sensing** is a powerful tool where the theory of quantum mechanics can be applied to measure physical properties such as magnetic fields, detecting subtle changes with great precision. A well-established platform for this technology is the **nitrogen-vacancy (NV) center in diamond**, a specific type of defect within the diamond atomic lattice, in which a nitrogen atom has replaced a carbon atom, next to a spot in which there is a missing carbon atom (vacancy). **This NV defect hosts a quantum system that is extremely sensitive to magnetic fields**, and can be manipulated optically to read out very small variations in the magnetic environment.
 
-**Quantum sensing** is often employed to map the properties of magnetic samples, which is a challenging task because of the **relevant signals are mixed with random magnetic fluctuations**, known as **magnetic noise**. This noise, tipycally seen as an obstacle for measurements, can also become a **valuable source of information**, as it may encode critical properties of the local sample composition and dynamics. Consequently, understanding and characterizing the **noise spectral density** is a powerful tool to extract detailed information about the sample's physical properties.
+In order to determine the **properties of magnetic samples**, a usual challenge is to **distinguish the relevant quantum signals from the noise**, originated by random magnetic fluctuations. This noise, tipycally seen as an obstacle for measurements, can also become a **valuable source of information**, as it may encode critical properties of the local sample composition and dynamics. Consequently, understanding and characterizing the **noise spectral density** is a powerful tool to extract detailed information about a sample's physical properties.
+
+The **problem of decoding magnetic noise** has long been critical for many fields, as it is fundamental for practical applications. **Traditional approaches**, which rely on theoretical models and numerical methods, have made significant progress in the area, but face **large limitations due to oversimplifications or the extensive experimental data that is required**, which usually compromises the accuracy of the results.
+
+In our research, we address the noise problem using artificial intelligence tools, showing that **deep learning algorithms can efficiently reconstruct the spectral density of the magnetic noise from a target sample, employing a minimal experimental dataset**. Our results have benchmarked those of equivalent methodology using only theory and numerical methods, highlighting the **great potential of combining AI-based methods with quantum sensing**.
 
 
 
-------
 
-Complex signals, theory and numerical methods are limited. Machine Learning approach could improve the precision in results.
 
 ## Deep Learning algorithm
 
