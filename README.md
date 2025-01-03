@@ -31,11 +31,18 @@ The **problem of decoding magnetic noise** has long been critical for many field
 
 In our research, we address the noise problem using artificial intelligence tools, showing that **deep learning algorithms can efficiently reconstruct the spectral density of the magnetic noise from a target sample, employing a minimal experimental dataset**. Our results have benchmarked those of equivalent methodology using only theory and numerical methods, highlighting the **great potential of combining AI-based methods with quantum sensing**.
 
-
-
-
+<center><figure>
+  <img src="https://github.com/Fertmeneses/qubit-noise-spectroscopy/blob/main/assets/Noise_PSD_examples.png?raw=true" alt="Signal and Power Spectral Density examples"> 
+  <figcaption><sup>(Left) Magnetic signals as a function of time according to different colored noises and random experimental noise. (Right) Power Spectral Density associated to the noise, with the color frequency indicated by a dashed line, and the half-width bandwidth at half-maximum by a shaded area.</sup></figcaption>
+</figure></center>
 
 ## Deep Learning algorithm
+
+In our application, the input data are magnetic signals as a function of time. As the signals are convoluted with magnetic noise, our task is to determine the noise spectral density, expressed in a frequency space.
+
+
+
+
 
 Description: auto-encoder.
 
