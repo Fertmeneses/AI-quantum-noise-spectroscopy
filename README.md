@@ -2,7 +2,7 @@
 
 **[Website in development...]**
 
-As a postdoc in **The City College of New York** (CCNY, USA), I have combined my experimental skills in quantum sensing along with machine learning techniques. In collaboration with **University College London** (UCL, UK) and **Universidad Nacional de Córdoba** (UNC, Argentina), we published a research article titled **Toward Deep-Learning-Assisted Spectrally Resolved Imaging of Magnetic Noise**, in the journal *Physical Review Applied* in 2022.
+As a postdoc in **The City College of New York** (CCNY, USA), I have combined my experimental skills in quantum sensing along with artificial intelligence (AI) techniques. In collaboration with **University College London** (UCL, UK) and **Universidad Nacional de Córdoba** (UNC, Argentina), we published a research article titled **Toward Deep-Learning-Assisted Spectrally Resolved Imaging of Magnetic Noise**, in the journal *Physical Review Applied* in 2022.
 
 [Link to the research article](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.18.024004) 👈🏽.
 
@@ -38,7 +38,7 @@ In our research, we address the challenge of **reconstructing the noise spectral
 
 ## Deep Learning algorithm
 
-In our application, the input data are magnetic signals as a function of time. As the signals are convoluted with magnetic noise, our task is to determine the noise spectral density, expressed in a frequency space.
+For the task of determining the Power Spectral Density (PSD) from magnetic signals, we have designed an **AI algorithm** that takes **magnetic timeseries as input data** and **returns the PSD of the underlying magnetic noise** in the frequency space.
 
 
 
