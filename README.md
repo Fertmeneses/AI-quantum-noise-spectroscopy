@@ -40,8 +40,10 @@ In our research, we address the challenge of **reconstructing the noise spectral
 
 For the task of determining the Power Spectral Density (PSD) from magnetic signals, we have designed an **AI algorithm** that takes **magnetic timeseries as input data** and **returns the PSD of the underlying magnetic noise** in the frequency space.
 
-
-
+<center><figure>
+  <img src="https://github.com/Fertmeneses/qubit-noise-spectroscopy/blob/main/assets/AI_algorithm.png?raw=true" alt="AI algorithm"> 
+  <figcaption><sup>To be updated.</sup></figcaption>
+</figure></center>
 
 
 Description: auto-encoder.
