@@ -53,15 +53,27 @@ An **alternative solution for generating a large dataset** is to use **simulatio
 
 ## Results
 
-Spectral noise recognition successful. Improved precision compared to numerical methods.
+The colored noise studied in this work is within the range X-X kHz for the central frequency, and from X to X kHz in bandwidth, measured as the half-width at half-maximum of the PSD distribution. The experimental technique to measure the magnetic signal and sample that noise frequency is the Hahn Echo control pulsed sequence. Typical timeseries take from X to X us, and must be average N times.
 
-![Noise plots, comparison with numerical methods](httplink)
+The traditional approach to determine the PSD involves XXX. Although this technique can determine the central frequency noise spectral distribution most of the times, the accuracy is very poor and incorrect for X conditions.
 
-Possibility to improve with larger experiments, larger training datasets.
+Our AI approach, instead, which makes use of the trained algorithm on the simulated data, can reconstruct the PSD with remarkable superiority in precision for unseen, real data, as shown in figure X. Compared to the real PSD, the AI predictions are very close, identifying in all cases the central frequency correctly, and the bandwidth XXX.
+
+<center><figure>
+  <img src="Xxxx" alt="AI vs traditional results"> 
+  <figcaption><sup>To be updated.</sup></figcaption>
+</figure></center>
+
+Our results demonstrate the potential of the AI method applied to experimental techniques, and there is ample room for improvement. On the one hand, the quality of the magnetic timeseries strongly depends on the number of averages during the measurements. At the expense of more meausuring time, cleaner input data can be prepared for the AI autoencoder, which will translate into more precise outputs. On the other hand, augmenting the training dataset with more frequency and bandwidth conditions can also enhance the predictions. In all cases, more resources must be employed to improve the AI predictions, and the limit is set by the user and precision level required by the application.
+
+On the other hand, the AI method has demonstrated an improvement over its traditional counterpart, employing theory and numerical methods. Usually, the level of accuracy attained by our algorithm requires more complex experiments compared to the simple Hahn Echo. Our AI algorithm can also benefit from those experiments, and a broader ranges of colored main frequencies and bandwidth can be studied.
+
+
+
 
 ## Conclusions
 
-Important milestone in deep learning approaches for magnetic noise spectroscopy. Experimental methods can be combined with theory, simulations and machine learning algorithms, benchmarking results from traditional numerical methods.
+In this research, we have developed an AI autoencoder algorithm that can be combined with magnetic platforms, such as the NV centers in diamond, to determine the Power Spectral Density of the noise behind a magnetic signal. The demonstrated superiority of our method compared to traditional numerical solutions invites to consider the great potential of AI applied to experimental techniques. As determining the PSD for magnetic signals is key to several applications, the AI algorithm can be tailored according to the problem's need to achieve the desired accuracy, improving the efficiency known so far by other approaches.
 
 ![Banner](httplink)
 
