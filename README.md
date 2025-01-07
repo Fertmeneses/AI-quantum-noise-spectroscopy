@@ -38,19 +38,18 @@ In our research, we address the challenge of **reconstructing the noise spectral
 
 ## Deep Learning algorithm
 
-For the task of determining the Power Spectral Density (PSD) from magnetic signals, we have designed an **AI algorithm** that takes **magnetic timeseries as input data** and **returns the PSD of the underlying magnetic noise** in the frequency space.
+In order to determine the Power Spectral Density (PSD) from magnetic signals, we have designed an **AI Autoencoder algorithm**. This program takes **magnetic timeseries as input data** and **determines the PSD of the underlying magnetic noise** in the frequency space. 
 
 <center><figure>
   <img src="https://github.com/Fertmeneses/qubit-noise-spectroscopy/blob/main/assets/AI_algorithm.png?raw=true" alt="AI algorithm"> 
-  <figcaption><sup>To be updated.</sup></figcaption>
+  <figcaption><sup>Autoencoder algorithm: the input magnetic timeseries is first encoded into a reduced representation by one-dimensional (1D) Convolutional and Max-Pooling layers, and then expanded into the frequency domain by 1D-Convolutional and Upsampling layers, finally returning the noise Power Spectral Density.</sup></figcaption>
 </figure></center>
 
+The idea behind the **autoencoding process** is to first **extract the essential information from the magnetic timeseries** into a reduced representation, and then **expand it to the frequency domain** to reconstruct the PSD of the magnetic noise. The main tools in the process are the **one-dimensional (1D) Convolutional Layers**, which scan the input data with 1D filters and **extract the most relevant features**. The Autoencoder algorithm consists in two main structures: first the **Encoder**, which combines 1D Convolutional Layers with **Max-Pooling layers to reduce the information in each step**, while preserving the critical features; and then the **Decoder**, which instead uses **Up-sampling layers to progressively expand the data**.
 
-Description: auto-encoder.
+Our algorithm has a **Deep Leaning structure** (meaning many internal layers) which **requires training on a large dataset**, having at least a few tens of thousands of samples, in order to optimize its numerous internal parameters. As our application aims to **predict the PSD of real magnetic measurements**, the ideal dataset would comprise a large collection of experimental measurements. However, acquiring a single timeseries sample can take several minutes, then **measuring just 10.000 samples non-stop would take more than a month**.
 
-Some code from Siddharth.
-
-![Autoencoder image](httplink)
+An **alternative solution for generating a large dataset** is to use **simulations** that reproduce the experimental conditions within a range of colored noises. Although simulations cannot perfectly replicate real-world conditions, the AI algorithm can still learn to identify patterns and generalize its knowledge to real data. In our work, we have simulated a **set of 500.000 samples**, 80% used for training and 20% for testing.
 
 ## Results
 
