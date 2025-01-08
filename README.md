@@ -68,5 +68,5 @@ The results demonstrate that the **AI method** significantly **outperfoms its tr
 
 In this research, we have developed an **AI autoencoder algorithm** that can be integrated with magnetic platforms, such as **NV centers in diamond**, to determine the Power Spectral Density of the noise behind a magnetic signal. The demonstrated superiority of our method over traditional solutions highlights the **great potential of AI applied to experimental techniques**. As determining the PSD for magnetic signals is key to several applications, the **AI algorithm can be tailored according to the problem's need** to achieve the desired accuracy, improving the efficiency known so far by other approaches.
 
-![Banner](httplink)
+![Banner](https://github.com/Fertmeneses/qubit-noise-spectroscopy/blob/main/assets/Banner.png?raw=true)
 
