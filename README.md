@@ -53,16 +53,17 @@ An **alternative solution for generating a large dataset** is to use **simulatio
 
 ## Results
 
-The colored noise studied in this work is within the range X-X kHz for the central frequency, and from X to X kHz in bandwidth, measured as the half-width at half-maximum of the PSD distribution. The experimental technique to measure the magnetic signal and sample that noise frequency is the Hahn Echo control pulsed sequence. Typical timeseries take from X to X us, and must be average N times.
+The colored noise studied in this work is within the range of tens to a few hundreds of kHz. At this frequency, the **Hahn Echo control sequence** (experimental technique) allows us to **measure the *relaxation time* of the NV defects** and to **determine the *coherence curve***, which goes from a state of maximum to minimum information regarding the quantum state of the NV defects. The shape of this coherence curve is **strongly affected by the magnetic noise**, which is the main principle that we use in our AI application to determine the Power Spectral Density for each particular noise.
 
-The traditional approach to determine the PSD involves XXX. Although this technique can determine the central frequency noise spectral distribution most of the times, the accuracy is very poor and incorrect for X conditions.
-
-Our AI approach, instead, which makes use of the trained algorithm on the simulated data, can reconstruct the PSD with remarkable superiority in precision for unseen, real data, as shown in figure X. Compared to the real PSD, the AI predictions are very close, identifying in all cases the central frequency correctly, and the bandwidth XXX.
+On the left column of the Figure below, there are **three examples of coherence curves**, our magnetic signals in this case, affected by different colored noises. The real PSD is computed on the right by solid lines, showing **distinct signatures for each noise**. When the input data is processed by our **Deep Learning algorithm**, the **PSD predictions** (green dashed lines in central column) are **very close to the true values**. As a comparison, we also show the results obtained by the **traditional approach** commonly used for this experimental technique (red dotted lines in right column), barely indicating the distribution of the noise spectrum and **evidencing poor accuracy**.
 
 <center><figure>
-  <img src="Xxxx" alt="AI vs traditional results"> 
-  <figcaption><sup>To be updated.</sup></figcaption>
+  <img src="https://github.com/Fertmeneses/qubit-noise-spectroscopy/blob/main/assets/AI_results.png?raw=true" alt="AI vs traditional results"> 
+  <figcaption><sup>Results for the determination of Power Spectral Density (PSD) of different colored noises from magnetic signals (left column), using either Artificial Intelligence (central column) or a traditional approach (right column). The better agreement of the AI method with the true PSD (solid lines) becomes evident in all cases.</sup></figcaption>
 </figure></center>
+
+
+
 
 Our results demonstrate the potential of the AI method applied to experimental techniques, and there is ample room for improvement. On the one hand, the quality of the magnetic timeseries strongly depends on the number of averages during the measurements. At the expense of more meausuring time, cleaner input data can be prepared for the AI autoencoder, which will translate into more precise outputs. On the other hand, augmenting the training dataset with more frequency and bandwidth conditions can also enhance the predictions. In all cases, more resources must be employed to improve the AI predictions, and the limit is set by the user and precision level required by the application.
 
