@@ -1,4 +1,4 @@
-<a href="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" target="_blank"> <img src="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" alt="Logo FM" style="width: 1.5%;" /> </a> <a href="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" target="_blank"> Go to Home Page </a> 
+<a href="https://fertmeneses.github.io/" target="_blank"> <img src="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" alt="Logo FM" style="width: 3%;" /> </a> <a href="https://fertmeneses.github.io/" target="_blank"> Go to Home Page </a> 
 
 # Deep Learning applied to Spectral Imaging of Magnetic Noise
 
