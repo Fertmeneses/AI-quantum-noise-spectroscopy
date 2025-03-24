@@ -1,3 +1,5 @@
+<a href="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" target="_blank"> <img src="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" alt="Logo FM" style="width: 1.5%;" /> </a> <a href="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" target="_blank"> Go to Home Page </a> 
+
 # Deep Learning applied to Spectral Imaging of Magnetic Noise
 
 As a postdoc in **The City College of New York** (CCNY, USA), I have combined my experimental skills in quantum sensing along with artificial intelligence (AI) techniques. In collaboration with **University College London** (UCL, UK) and **Universidad Nacional de Córdoba** (UNC, Argentina), we published a research article titled **Toward Deep-Learning-Assisted Spectrally Resolved Imaging of Magnetic Noise**, in the journal *Physical Review Applied* in 2022.
@@ -67,7 +69,6 @@ The results demonstrate that the **AI method** significantly **outperfoms its tr
 In this research, we have developed an **AI autoencoder algorithm** that can be integrated with magnetic platforms, such as **NV centers in diamond**, to determine the Power Spectral Density of the noise behind a magnetic signal. The demonstrated superiority of our method over traditional solutions highlights the **great potential of AI applied to experimental techniques**. As determining the PSD for magnetic signals is key to several applications, the **AI algorithm can be tailored according to the problem's need** to achieve the desired accuracy, improving the efficiency known so far by other approaches.
 
 -----
-<br>
 
 [🔼 Back to top](#deep-learning-applied-to-spectral-imaging-of-magnetic-noise)
 
