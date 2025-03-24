@@ -3,4 +3,5 @@ email: fertmeneses@gmail.com
 logo: assets/QNS_logo.png
 description: A Machine Learning approach for imaging magnetic noise, by Fernando Meneses.
 show_downloads: True
+google_analytics: G-H9RS8T0QD9
 theme: jekyll-theme-minimal
