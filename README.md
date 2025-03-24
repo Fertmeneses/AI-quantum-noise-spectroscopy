@@ -72,5 +72,7 @@ In this research, we have developed an **AI autoencoder algorithm** that can be 
 
 [🔼 Back to top](#deep-learning-applied-to-spectral-imaging-of-magnetic-noise)
 
+<a href="https://fertmeneses.github.io/" target="_blank"> <img src="https://github.com/Fertmeneses/fertmeneses.github.io/blob/main/assets/website_icon_FM.jpg?raw=true" alt="Logo FM" style="width: 3%;" /> </a> <a href="https://fertmeneses.github.io/" target="_blank"> Go to Home Page </a> 
+
 ![Banner](https://github.com/Fertmeneses/qubit-noise-spectroscopy/blob/main/assets/Banner.png?raw=true)
 
